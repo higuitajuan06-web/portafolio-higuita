@@ -1,4 +1,25 @@
 /* un mini-reset basico */
+body{
+    background-image: url(paisaje-ilustracion-atardecer-en-el-bosque-montanas_1920x1080_12274.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh; /* o el alto que desees */
+font-family: arial, sans-serif;
+line-height: 1.6;
+background-color: #f4f4f4;    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: #432c56;
+    background-color: antiquewhite;
+}
+nav a:hover {
+    color: #814997;
+}
 img {
     display: flex;
     margin: 0px;
@@ -7,40 +28,25 @@ img {
      box-sizing: border-box;  
 } 
 * {
-    margin: 10px;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
     size: 15px;
     box-sizing: border-box;  
     border-radius: 0;
     border-bottom: #f4f4f4;
 }
-body {
-    font-family: arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
+
 .titulo{
     background-color: rgb(187, 156, 174);
     text-align: center;
     margin: 10px;
     font-size: xx-large;
-}
-.section{
-    text-align: start;
-    margin: 0%;
-    font-size: smaller;
-}
-.final{
-   position: relative;
-   position: absolute;
-   bottom: 0;
-   margin: 0;
-}
-.titulo2{
-    margin-top: 0%;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+} 
+.actividad{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .projects{
     text-align: center;
@@ -60,9 +66,8 @@ body {
     transition: color 0.3s ease;
     }
 .col-md-6 {
-     text-align: start;
-    margin: 0%;
-    font-size: smaller;
+    text-align:right;
+    justify-content: space-evenly;
 }
 .section{
     height: 85vh;
@@ -70,4 +75,10 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+}
+.final{
+   position: relative;
+   position: absolute;
+   bottom: 0;
+   margin: 0;
 }
