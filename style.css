@@ -22,8 +22,9 @@
     height: 90vh;
     background: url(paisaje-ilustracion-atardecer-en-el-bosque-montanas_1920x1080_12274.jpg) center / cover no-repeat;
     border: 2px solid black;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 ul  {
     width: 50%;
@@ -51,5 +52,24 @@ ul  {
     border: 5px solid black;
 }
 h3 {
-    margin: 0 auto;
+    margin: 0 au;
+} 
+.titulo-nombre {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+}
+.actividad {
+   margin: 0 0 0 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    height: 50vh;
+    background-color: rgb(231, 231, 231);
+    border: 5px solid black;
 }
